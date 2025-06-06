@@ -1,3 +1,12 @@
+#By AMK Daniel Karimi
+#PDF Protect by two method
+#1) by Permission Attributes Protection
+#2)by Converting text to image
+#I used this for my books publish
+#understands Iranian book sizes and presever the PAge size of book in output protect file for image protecion scanrios disregarding the DPI selected
+#May 2025
+#the outline view still has some issues and should be fixed
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from io import BytesIO
